@@ -42,10 +42,10 @@ Block elements cause a line break in the page and push everything to the next li
 
 3. What are the 4 areas of the box model?
 
-Content - Image/text/whatever content you have
-Padding - Wraps around the content
-Border - Goes around the padding
-Margin - Wraps entire box
+Content - Image/text/whatever content you have/
+Padding - Wraps around the content/
+Border - Goes around the padding/
+Margin - Wraps entire box/
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
