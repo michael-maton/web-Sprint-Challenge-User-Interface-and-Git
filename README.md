@@ -34,7 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic tags provide additional information about your HTML code. It makes the sections of your code clear to your browser, and can be communicated with search engines to give you a better chance of your website showing up as a result.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block elements cause a line break in the page and push everything to the next line. Inline elements are used to do things within the same line and don't cause a line break.
 
 3. What are the 4 areas of the box model?
 
