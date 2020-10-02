@@ -68,18 +68,16 @@ p {
 
 header {
     display: flex;
-    width:100%;
     justify-content: center;
     flex-flow: row wrap;
 }
 
 header nav {
-    width: 65%;
+    width:800px;
     display: flex;
-
     justify-content: flex-start;
     align-items: baseline;
-    padding: 2%;
+    padding: 2% 2% 2% 0;
     font-size: 14px;
     font-weight: 600;
     /* border: 1px solid black; */
@@ -204,3 +202,55 @@ footer nav a {
     text-decoration: none;
 }
 
+
+.aboutTopContent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.aboutMiddleContent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;;
+    /* border: 1px solid black; */
+    padding: 1%;
+}
+
+.aboutMiddleContent .aboutItems {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 360px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.aboutMiddleContent .aboutItems h2 {
+    padding-top: 3%;
+}
+
+.aboutMiddleContent .aboutItems p {
+    padding-bottom: 3%;
+}
+
+.aboutMiddleContent .aboutItems button {
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.emptySpace {
+    width: 800px;
+    height: 60px;
+}
+
+.aboutBottomContent {
+    padding: 40px 3%;
+}
